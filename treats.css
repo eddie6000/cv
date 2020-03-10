@@ -1,0 +1,92 @@
+/* css stylesheet  treats page */
+
+* {  margin: 0px;
+     padding: 0px;  }
+	 
+@font-face {
+    font-family: BrushScript;
+    src: url(BrushScriptStd.otf);  }
+	 
+body {  background-color: #ffe6f2;  }
+
+nav {  text-align: center;
+       padding: 5px;  }
+	   
+nav ul li {  display: inline;
+             margin: 5%;
+             text-decoration: none; 
+			 color: #cc0066;
+			 font-family: BrushScript;			   
+			 font-size: 2.5em;  } 
+
+nav .links  {  text-decoration: none; 
+			   color: #cc0066;  } 		   
+			   
+nav .links:hover {  color: gold;
+                    text-shadow: 1px 1px 1px #4d4d4d;  }
+					
+nav .links:active {  color: red;
+                     text-shadow: 1px 1px 1px #4d4d4d;  }					
+
+.active {  color: purple;  }
+
+.clear  {  clear: both;  }
+                 	
+#logo {  width: 300px;
+         margin: 20px 30px;  }
+
+#contact {  font-family: BrushScript;			   
+            font-size: 2.2em;
+            color: #cc0066;
+            float: right;
+            margin: 30px 30px;			 
+			text-align: center;  }    
+		   
+#splashImg {  width: 100%;
+              border-top: 5px solid #cc0066;
+              border-bottom: 5px solid #cc0066;  }
+
+.products  {  margin: auto;
+              width: 80%;  }
+
+.products img {  width: 30%;
+                 float: right;
+                 margin: 10px 10px;  }
+
+h3 {  font-family: BrushScript;              
+      font-size: 2.5em;  
+      color: #cc0066;
+      margin-bottom: 10px;	}
+
+.td {  width: 70%;
+       border: 2px solid #cc0066;  }
+	
+hr {  width: 90%;
+      margin: auto;
+      border-top: 3px dotted #cc0066;  }
+	  
+.marshmellow  {  width: 100%;
+                 margin-top: 5%;
+				 border-top: 5px solid #cc0066;
+                 border-bottom: 5px solid #cc0066;  }
+				 
+#mid {  width: 50%; 
+        margin: auto; 
+        padding: 20px;  }
+
+#mid p {  font-family: BrushScript;              
+          font-size: 2.5em;  
+          color: #cc0066; 
+          text-align: center;  } 
+		  
+footer  {  width: 50%;
+           font-family: BrushScript; 
+		   color: #cc0066;
+           margin: auto; 
+           padding: 20px; 
+		   text-align: center;  }
+		   
+footer h2  {  margin-top: 20px;
+              font-size: 3.5em;  }
+               
+                
